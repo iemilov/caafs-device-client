@@ -1,0 +1,21 @@
+{
+  "name": "client_goiot",
+  "version": "0.1",
+  "description": "GoIoT device client application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Emilov",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.3.0",
+    "azure-iot-device-amqp": "^1.3.0",
+    "azure-iot-device-http": "^1.3.0",
+    "azure-iot-device-mqtt": "^1.3.0",
+    "bunyan": "^1.8.12",
+    "es5-shim": "^4.5.10",
+    "node-dht-sensor": "0.0.33",
+    "systeminformation": "^3.33.18"
+  }
+}
