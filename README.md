@@ -161,7 +161,7 @@ Example output after starting the application:
 
 ## Contributing
  
-Please read [CONTRIBUTING.md](https://github.com/iemilov/caafs-platform/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/iemilov/caafs-device-client/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
  
 ## Authors
  
@@ -169,4 +169,4 @@ Please read [CONTRIBUTING.md](https://github.com/iemilov/caafs-platform/blob/mas
 
 ## License
  
-This project is licensed under the ISC License - see the [LICENSE.md](https://github.com/iemilov/caafs-platform/blob/master/LICENSE) file for details
+This project is licensed under the ISC License - see the [LICENSE.md](https://github.com/iemilov/caafs-device-client/blob/master/LICENSE) file for details
