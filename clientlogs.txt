@@ -1,0 +1,174 @@
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"Response to method 'startTelemetry' sent successfully.","time":"2018-03-25T19:34:37.975Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"twin acquired","time":"2018-03-25T19:34:43.079Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"Device twin state updated","time":"2018-03-25T19:34:43.292Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"Response to method 'setNewInterval' sent successfully.","time":"2018-03-25T19:34:56.577Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"twin acquired","time":"2018-03-25T19:34:56.644Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":7397,"level":30,"msg":"Device twin state updated","time":"2018-03-25T19:34:56.829Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10832,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:18:44.983Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10832,"level":30,"msg":"twin acquired","time":"2018-03-25T20:18:45.479Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10832,"level":30,"msg":"twin acquired","time":"2018-03-25T20:18:45.557Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10832,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-25T20:18:45.588Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10832,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:18:45.777Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:19:09.829Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"twin acquired","time":"2018-03-25T20:19:10.416Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"twin acquired","time":"2018-03-25T20:19:10.552Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-25T20:19:10.600Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:19:10.817Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"twin acquired","time":"2018-03-25T20:19:15.717Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:19:15.982Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Response to method 'startTelemetry' sent successfully.","time":"2018-03-25T20:19:32.873Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Response to method 'stopTelemetry' sent successfully.","time":"2018-03-25T20:19:55.491Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"twin acquired","time":"2018-03-25T20:19:55.586Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:19:55.772Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Response to method 'startTelemetry' sent successfully.","time":"2018-03-25T20:20:03.766Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Response to method 'setNewInterval' sent successfully.","time":"2018-03-25T20:20:25.694Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"twin acquired","time":"2018-03-25T20:20:25.764Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":10856,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:20:25.945Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:35:16.938Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:17.374Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:17.438Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:35:17.442Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-25T20:35:17.472Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:35:17.646Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:35:24.506Z","time":"2018-03-25T20:35:24.506Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:35:34.510Z","time":"2018-03-25T20:35:34.510Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:35:34.871Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:35.102Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:35.163Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:35:35.165Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:35:35.343Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:35:40.664Z","time":"2018-03-25T20:35:40.664Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:35:44.537Z","time":"2018-03-25T20:35:44.537Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:35:45.021Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:45.313Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:45.404Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:35:45.407Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:35:45.624Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:35:50.669Z","time":"2018-03-25T20:35:50.670Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:35:51.155Z","time":"2018-03-25T20:35:51.155Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:35:51.159Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:51.415Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:51.497Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:35:51.501Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:35:51.682Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:35:54.554Z","time":"2018-03-25T20:35:54.555Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:35:55.087Z","time":"2018-03-25T20:35:55.087Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:35:55.091Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:55.452Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:35:55.536Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:35:55.539Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:35:55.764Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:36:01.163Z","time":"2018-03-25T20:36:01.163Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:36:01.495Z","time":"2018-03-25T20:36:01.496Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:36:01.507Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:36:01.742Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:36:01.803Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:36:01.805Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:36:01.992Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"RECONNECT is executed at 2018-03-25T20:36:05.091Z","time":"2018-03-25T20:36:05.091Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device disconnetcted from the iot hub 2018-03-25T20:36:05.378Z","time":"2018-03-25T20:36:05.378Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:36:05.401Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:36:05.670Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"twin acquired","time":"2018-03-25T20:36:05.736Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:36:05.739Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11545,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:36:05.963Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:37:15.484Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"twin acquired","time":"2018-03-25T20:37:16.078Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"twin acquired","time":"2018-03-25T20:37:16.188Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:37:16.194Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-25T20:37:16.229Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11582,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:37:16.373Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-25T20:37:59.819Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"twin acquired","time":"2018-03-25T20:38:00.374Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"twin acquired","time":"2018-03-25T20:38:00.484Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-25T20:38:00.487Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-25T20:38:00.581Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":11614,"level":30,"msg":"Device twin state updated","time":"2018-03-25T20:38:00.727Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-27T14:31:18.942Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"twin acquired","time":"2018-03-27T14:31:19.682Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-27T14:31:19.717Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"twin acquired","time":"2018-03-27T14:31:19.756Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-27T14:31:19.762Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":598,"level":30,"msg":"Device twin state updated","time":"2018-03-27T14:31:19.985Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-27T14:50:45.943Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-27T14:50:54.280Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"twin acquired","time":"2018-03-27T14:50:54.699Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"twin acquired","time":"2018-03-27T14:50:54.766Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-27T14:50:54.769Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":549,"level":30,"msg":"Device twin state updated","time":"2018-03-27T14:50:54.955Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-27T14:52:42.692Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"twin acquired","time":"2018-03-27T14:52:43.428Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-27T14:52:43.507Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"twin acquired","time":"2018-03-27T14:52:43.531Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-27T14:52:43.537Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":599,"level":30,"msg":"Device twin state updated","time":"2018-03-27T14:52:43.759Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-27T21:12:46.596Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"twin acquired","time":"2018-03-27T21:12:47.256Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"twin acquired","time":"2018-03-27T21:12:47.330Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-27T21:12:47.336Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-27T21:12:47.364Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":6113,"level":30,"msg":"Device twin state updated","time":"2018-03-27T21:12:47.543Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-27T21:13:30.227Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-27T21:13:30.940Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-27T21:13:31.013Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-27T21:13:31.019Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-27T21:13:31.049Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-27T21:13:31.203Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Response to method 'monitor' sent successfully.","time":"2018-03-27T21:15:30.014Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Response to method 'monitor' sent successfully.","time":"2018-03-28T11:52:44.048Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Response to method 'firmwareUpdate' sent successfully.","time":"2018-03-28T12:35:17.993Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T12:35:58.142Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-28T12:35:58.331Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T12:37:10.052Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T12:37:10.108Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-28T12:37:10.289Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-28T12:37:10.295Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Response to method 'reboot' sent successfully.","time":"2018-03-28T13:21:38.352Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T13:21:38.435Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"rebooting physical device","time":"2018-03-28T13:21:38.439Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-28T13:21:38.645Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T13:22:07.021Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T13:22:07.724Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"twin acquired","time":"2018-03-28T13:22:07.798Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-28T13:22:07.804Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-28T13:22:07.910Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":617,"level":30,"msg":"Device twin state updated","time":"2018-03-28T13:22:07.997Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T16:04:12.682Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"twin acquired","time":"2018-03-28T16:04:13.366Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-28T16:04:13.449Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"twin acquired","time":"2018-03-28T16:04:13.472Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-28T16:04:13.478Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:04:13.668Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"Response to method 'firmwareUpdate' sent successfully.","time":"2018-03-28T16:05:06.310Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"twin acquired","time":"2018-03-28T16:05:41.893Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3049,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:05:42.083Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T16:06:54.601Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"twin acquired","time":"2018-03-28T16:06:55.262Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"twin acquired","time":"2018-03-28T16:06:55.338Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-28T16:06:55.344Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-28T16:06:55.454Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:06:55.535Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"Response to method 'firmwareUpdate' sent successfully.","time":"2018-03-28T16:07:15.892Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"twin acquired","time":"2018-03-28T16:07:27.337Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":50,"msg":"Error starting upgrade packages","time":"2018-03-28T16:07:27.437Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"twin acquired","time":"2018-03-28T16:07:27.504Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":3328,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:07:27.523Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T16:10:07.676Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"twin acquired","time":"2018-03-28T16:10:08.314Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"twin acquired","time":"2018-03-28T16:10:08.391Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-28T16:10:08.398Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-28T16:10:08.425Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:10:08.592Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Response to method 'firmwareUpdate' sent successfully.","time":"2018-03-28T16:10:20.568Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"twin acquired","time":"2018-03-28T16:10:31.588Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:10:31.782Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"twin acquired","time":"2018-03-28T16:10:34.969Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"twin acquired","time":"2018-03-28T16:10:35.030Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:10:35.204Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4432,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:10:35.210Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T16:14:26.188Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"twin acquired","time":"2018-03-28T16:14:26.908Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"twin acquired","time":"2018-03-28T16:14:26.994Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"there is no waiting command at this time","time":"2018-03-28T16:14:27.003Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"Client myPi connected to the cloud","time":"2018-03-28T16:14:27.192Z","v":0}
+{"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"Device twin state updated","time":"2018-03-28T16:14:27.236Z","v":0}

@@ -7,6 +7,8 @@ const methods = require("./methods")
 methods.main()
 
 
+// repoprt last reboot
+//methods.reportThroughTwin('LastRebootTime', 'reboot completed', 'reboot')
 
 
 

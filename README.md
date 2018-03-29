@@ -1,1 +1,1 @@
-# GoIoT raeady device client based on Azure IoT HuB node SDK
+# Caafs device client based on Microsoft Azure IoT HuB

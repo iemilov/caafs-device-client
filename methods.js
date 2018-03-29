@@ -14,11 +14,26 @@ const si = require('systeminformation')
 let isconnected = false
 let client = null;
 
+let ExponentialBackOffWithJitter = require('azure-iot-common').ExponentialBackOffWithJitter;
+
+let TimeoutError= function (err) {
+    logobject.logger.error('TimeoutError ' +  err)
+}
+
+let UnauthorizedError= function (err) {
+    logobject.logger.error('UnauthorizedError ' +  err)
+}
+
+let NotConnectedError= function (err) {
+    logobject.logger.error('NotConnectedError ' +  err)
+}
+
 function main() {
     // open a connection to the device
     var deviceConnectionString = config.connectionString
     client = Client.fromConnectionString(deviceConnectionString, Protocol);
     client.open(onConnect)
+    //client.setRetryPolicy(new ExponentialBackOffWithJitter(true, [TimeoutError, UnauthorizedError, NotConnectedError]));
 }
 
 // generic Device Management object for updating the device twin after methods trigger
@@ -85,8 +100,10 @@ function GenericResponse(request, response, message, ApiResponse) {
 
 // helper function to report status to the cloud throught device twin
 function reportThroughTwin(newkey, newstatus, activity) {
+
     if (activity == 'fw') {
-        patch.iothubDM.firmwareUpdate['status'] = newstatus
+        patch.iothubDM.firmwareUpdate['status'] = newstatus.text
+        patch.iothubDM.firmwareUpdate['version'] = newstatus.version
         patch.iothubDM.firmwareUpdate[newkey] = new Date().toISOString()
     }
     if (activity == 'reboot') {
@@ -344,7 +361,7 @@ function FirmwareUpdateCommand(request, response, err) {
                     reportThroughTwin('startedApplying', 'applying packages', 'fw')
                     si.osInfo()
                     .then((data) => {
-                        reportThroughTwin('lastExecuted', 'fw was upgraded to version ' + data.kernel, 'fw')  
+                        reportThroughTwin('lastExecuted', {text:'firmware update completed', version:data.kernel}, 'fw')  
                     })
                     .catch(error => logobject.logger.error(error))
                 })

@@ -89,7 +89,6 @@ function SetNewInterval (request){
 
 client.open(connectCallback);
 
-
  module.exports = {
     SetNewInterval,
     stopTelemtry,

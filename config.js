@@ -1,12 +1,11 @@
 const config = {}
 
-// set the ednpoint for the device to connect to the IoT Hub. 
-//You can get this endpoint if you  send request to 'getendpoint' API from the plattform: url ?
-config.connectionString = '<device connection string>'
+// set the credentials for the device to connect to the IoT Hub
+config.connectionString = 'HostName=GoIoT-ivan.azure-devices.net;DeviceId=myPi;SharedAccessKey=/lG5hbfctdskcDBJjmNflQ7Yp6CVteiPINt5HDTjg08='
 config.deviceid = config.connectionString.split('DeviceId=').pop().split(';')[0]
 config.protocol = 'amqp'
 
-//set default sending interval. This sending interval could be changen if you execute setNewInterval method form the platform: URL
+//set default sending interval
 config.defaultinterval = 5000
 config.starttelemetry = true
 config.sensorData = 'on'  //if off simulated sensor data is generated and sent 
@@ -25,9 +24,7 @@ config.sensors = [
 //set name for the log file uploaded to the cloud
 config.logfile = 'logs.txt'
 // set path to the local file to write all logs
-config.clientlog = 'set path to log file' //example /home/pi/client/clientlogs.txt
-
-// commands which will be executed automaticly on receiveng methods from the cloud. DO NOT CHANGE!
+config.clientlog = '/home/pi/client/clientlogs.txt'
 config.reboot = 'sudo reboot'
 config.update = 'sudo apt-get update'
 config.upgrade = 'sudo apt-get -y dist-upgrade'
