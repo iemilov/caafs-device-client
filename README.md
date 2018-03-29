@@ -157,6 +157,10 @@ Example output after starting the application:
 
 ## Usage
 
+1. [Send Commands to the Application remotely]()
+2. [Manage Logs ]()
+3. [Manage endpoint]()
+4. [Monitor the application]()
 
 
 ## Contributing
@@ -166,6 +170,7 @@ Please read [CONTRIBUTING.md](https://github.com/iemilov/caafs-device-client/blo
 ## Authors
  
 * **Ivan Emilov**
+* **Contact**: is.emilov@gmail.com
 
 ## License
  
