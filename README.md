@@ -82,7 +82,7 @@ All configuration parameters are set in the [config.js](https://github.com/iemil
 config.connectionString = '<device connection string>'
 ```
 
-* Set the transport protocol for connecting to the cloud, [see more](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-protocols), see example below:
+* Set the transport protocol for connecting to the cloud, [supported transport protocols](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-protocols), see example below:
 
 ```
 config.protocol = 'amqp'
@@ -157,10 +157,14 @@ Example output after starting the application:
 
 ## Usage
 
-1. [Send Commands to this Application remotely](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
-2. [Manage Logs](https://github.com/iemilov/caafs-platform/wiki/Device-Management#get-device-logs)
-3. [Get Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-device-endpoin)
-4. [Monitor the application](http://pm2.keymetrics.io/)
+This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform).
+
+1. [Send Commands to this Application remotely]:(https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
+2. [Get the execution progress of command]:(https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-command-progress)
+3. [Manage Logs](https://github.com/iemilov/caafs-platform/wiki/Device-Management#get-device-logs)
+4. [Get Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-device-endpoint)
+5. [Generate New Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#generate-new-device-endpoint)
+6. [Monitor the application](http://pm2.keymetrics.io/docs/usage/quick-start/)
 
 
 ## Contributing
