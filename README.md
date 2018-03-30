@@ -157,10 +157,10 @@ Example output after starting the application:
 
 ## Usage
 
-1. [Send Commands to the Application remotely]()
-2. [Manage Logs ]()
-3. [Manage endpoint]()
-4. [Monitor the application]()
+1. [Send Commands to this Application remotely](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
+2. [Manage Logs](https://github.com/iemilov/caafs-platform/wiki/Device-Management#get-device-logs)
+3. [Get Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-device-endpoin)
+4. [Monitor the application](http://pm2.keymetrics.io/)
 
 
 ## Contributing
