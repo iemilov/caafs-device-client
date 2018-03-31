@@ -20,7 +20,7 @@ Additional facts:
 * **Based** on the provided [Azure IoT HUB Node.js sdk](https://github.com/Azure/azure-iot-sdk-node)
 * **Uses** the [Azure IoT HuB device twin](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins)
 * **Runs** on every device which would support a  Node.js runtime(for example raspberry pi)
-* **Tested** with raspbian OS installed on Raspberry Pi with temperature and humidity sensors [how to connect sensors](https://github.com/momenso/node-dht-sensor)
+* **Tested** with raspbian OS installed on Raspberry Pi with temperature and humidity sensors ([how to connect sensors](https://github.com/momenso/node-dht-sensor))
 
 Table of contents
 =================
@@ -163,7 +163,7 @@ Example output form the logfile after starting the application:
 
 ## Usage
 
-This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform). Nevertheless you still can use it with your own platform, see instructions in the provided links below
+This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform). Nevertheless you still can use it with your own platform.
 
 1. [Send Commands to this Application remotely](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
 2. [Get the execution progress of command](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-command-progress)
