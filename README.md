@@ -19,8 +19,8 @@ Please feel free to extend and make suggestions how to improve the application. 
 Additional facts:
 * **Based** on the provided [Azure IoT HUB Node.js sdk](https://github.com/Azure/azure-iot-sdk-node)
 * **Uses** the [Azure IoT HuB device twin](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins)
-* **Runs** on every device where a Node.js runtime could be installed (for example raspberry pi)
-* **Tested** with raspbian os installed on Raspberry Pi with temperature and humidity sensors described [here](https://github.com/momenso/node-dht-sensor)
+* **Runs** on every device which would support a  Node.js runtime(for example raspberry pi)
+* **Tested** with raspbian OS installed on Raspberry Pi with temperature and humidity sensors [how to connect sensors](https://github.com/momenso/node-dht-sensor)
 
 Table of contents
 =================
@@ -46,7 +46,7 @@ These instructions will get you a copy of the project up and running on your dev
 * Download BCM2835 library and follow installation [instructions](http://www.airspayce.com/mikem/bcm2835/) for your device type
 * Install pm2 for application management as described [here](http://pm2.keymetrics.io/)
 * Install [Node.js](https://nodejs.org/en/download/) on your local device.
-* Install git on your device.
+* Install Git on your device.
 
 **Windows**: [download](https://git-scm.com/download/win) <br>
 **Linux**:
@@ -66,7 +66,7 @@ git clone https://github.com/iemilov/caafs-device-client.git
 
 * **Install Dependancies**
 
-From your created client directory execute:
+From the created client directory execute:
 
 ```
 npm install
@@ -76,11 +76,13 @@ npm install
 
 All configuration parameters are set in the [config.js](https://github.com/iemilov/caafs-device-client/blob/master/config.js) file
 
-* Put the device connection string created in step XX (see example):
+* Put the device connection string [View Device Endpoint](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-device-endpoint):
 
 ```
 config.connectionString = '<device connection string>'
 ```
+
+You can also get the device connection string from [Azure Portal](https://blogs.msdn.microsoft.com/iotdev/2017/05/09/understand-different-connection-strings-in-azure-iot-hub/)!
 
 * Set the transport protocol for connecting to the cloud, [supported transport protocols](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-protocols), see example below:
 
@@ -94,7 +96,7 @@ config.protocol = 'amqp'
 config.defaultinterval = 5000
 ```
 
-**Note**: default value 5000 (5 seconds) would be the default sending interval for the sensor data if the Start Telemetry method is executed from the [Caafs platform](https://github.com/iemilov/caafs-platform) once the SetNewInterval is executed with the new desired value.
+**Note**: default value 5000 (5 seconds) would be the default sending interval for the sensor data if the startTelemetry method is executed from the [Caafs platform](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device) until the setNewInterval method is executed with the new desired value.
 
 * Switch on/off simulation data if you have no sensors connected:
 
@@ -124,7 +126,9 @@ config.sensors = [
 config.logfile = 'logs.txt'
 ```
 
-* Set path for your log file
+**Note**: every activity inclusive errors are stored in the log file!
+
+* Set path for your log file:
 
 ```
 config.clientlog = '/home/pi/client/clientlogs.txt'
@@ -138,13 +142,15 @@ config.update = 'sudo apt-get update'
 config.upgrade = 'sudo apt-get -y dist-upgrade'
 ```
 
+**Note**: this are standard commands for raspbian OS to execute those procedures. If you use another another OS or another device, change this parameters based on the OS! 
+
 ### **Run the application**
 
 ```
 node app.js
 ```
 
-Example output after starting the application:
+Example output form the logfile after starting the application:
 
 ```
 {"name":"app","hostname":"raspberrypi","pid":4653,"level":30,"msg":"Connected to device. Registering handlers for methods.","time":"2018-03-28T16:14:26.188Z","v":0}
@@ -157,10 +163,10 @@ Example output after starting the application:
 
 ## Usage
 
-This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform).
+This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform). Nevertheless you still can use it with your own platform, see instructions in the provided links below
 
-1. [Send Commands to this Application remotely]:(https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
-2. [Get the execution progress of command]:(https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-command-progress)
+1. [Send Commands to this Application remotely](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
+2. [Get the execution progress of command](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-command-progress)
 3. [Manage Logs](https://github.com/iemilov/caafs-platform/wiki/Device-Management#get-device-logs)
 4. [Get Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-device-endpoint)
 5. [Generate New Device Key](https://github.com/iemilov/caafs-platform/wiki/Device-Management#generate-new-device-endpoint)
