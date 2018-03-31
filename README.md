@@ -4,15 +4,15 @@
 
 **C.a.a.f.s.D.C** (**Care and Alarms facility systems Device Client**) is an application that enables bidirectional communication to every IoT platform based on Microsoft Azure IoT Hub. Explicitly developed for [Caafs platform](https://github.com/iemilov/caafs-platform). With **C.a.a.f.s.D.C**, you are able to:
 
-* Start/Stop sending sensor data to the cloud.
-* Change the sending interval remotely.
-* Execute FirmwareUpdate on the device remotely.
-* Execute Reboot on the device remotely.
-* Execute waiting method in case of reconnecting after beeing offline.
-* Monitor the progress of method execution remotely.
-* Upload device log data to the cloud remotely.
-* Monitor dynamic data (processes, cpu load, networks and etc.) remotely.
-* Get static data (cpu, ram, bios, operation system and etc.) remotely.
+* **Start/Stop** sending sensor data to the cloud.
+* **Reconfigure** the sending interval remotely.
+* **Execute firmwareUpdate** on the device remotely.
+* **Execute reboot** on the device remotely.
+* **Execute waiting method** in case of reconnecting after beeing offline.
+* **Monitor the progress** of method execution remotely.
+* **Upload device log data** to the cloud remotely.
+* **Monitor dynamic data** (processes, cpu load, networks and etc.) remotely.
+* **Get static data** (cpu, ram, bios, operation system and etc.) remotely.
 
 Please feel free to extend and make suggestions how to improve the application. If you find any bugs, do not hesitate to submit the [issues](https://github.com/iemilov/caafs-device-client/issues).
 
