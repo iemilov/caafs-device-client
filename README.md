@@ -163,7 +163,7 @@ Example output form the logfile after starting the application:
 
 ## Usage
 
-This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform). Nevertheless you still can use it with your own platform.
+This application is supposed to be used from the [Caafs Platform](https://github.com/iemilov/caafs-platform). Nevertheless this app is independant from the platform and you still can use it with your own solution.
 
 1. [Send Commands to this Application remotely](https://github.com/iemilov/caafs-platform/wiki/Device-Management#execute-methods-on-a-device)
 2. [Get the execution progress of command](https://github.com/iemilov/caafs-platform/wiki/Device-Management#view-command-progress)
