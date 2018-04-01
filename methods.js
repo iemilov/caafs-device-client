@@ -355,10 +355,10 @@ function onFirmwareUpdate(request, response, err) {
 function FirmwareUpdateCommand(request, response, err) {
     helper.Update()
         .then((stdout) => {
-            reportThroughTwin('startedDownloadingTime', 'downloading packages', 'fw')
+            reportThroughTwin('startedDownloadingTime', {text:'downloading packages'}, 'fw')
             helper.Upgrade()
                 .then((stdout) => {
-                    reportThroughTwin('startedApplying', 'applying packages', 'fw')
+                    reportThroughTwin('startedApplying', {text:'applying packages'}, 'fw')
                     si.osInfo()
                     .then((data) => {
                         reportThroughTwin('lastExecuted', {text:'firmware update completed', version:data.kernel}, 'fw')  
@@ -367,12 +367,12 @@ function FirmwareUpdateCommand(request, response, err) {
                 })
                 .catch(() => {
                     logobject.logger.error('Error starting upgrade packages')
-                    reportThroughTwin('lastExecuted', 'applying packages error', 'fw')
+                    reportThroughTwin('lastExecuted', {text:'applying packages error'}, 'fw')
                 })
         })
         .catch(() => {
             logobject.logger.error('Error starting downloading packages')
-            reportThroughTwin('lastExecuted', 'firmware upgrading error', 'fw')
+            reportThroughTwin('lastExecuted', {text:'firmware upgrading error'}, 'fw')
         })
 }
 
