@@ -35,7 +35,8 @@ config.MetaData = {
     'batteryOnBoard': false,
     'simCardModul': false,
     'bluetoothd': 5.43,
-    'gpsOnModul':false
+    'gpsModul':false,
+    'wifiOnBoard':true
 }
 
 module.exports = config

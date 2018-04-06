@@ -229,7 +229,6 @@ function onGetMetadata(request, response) {
         config.MetaData.os = data.os
         config.MetaData.versions = data.versions
         config.MetaData.cpu = data.cpu
-        config.MetaData.net = data.net
         let ApiResponse = 200
         GenericResponse(request, response, config.MetaData, ApiResponse)
     })
