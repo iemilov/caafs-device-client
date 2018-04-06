@@ -29,4 +29,13 @@ config.reboot = 'sudo reboot'
 config.update = 'sudo apt-get update'
 config.upgrade = 'sudo apt-get -y dist-upgrade'
 
+config.MetaData = {
+    'IsSimulatedDevice': 0,  // set it to 1 if the device is simulated
+    'Manufacturer': 'Raspberry',
+    'batteryOnBoard': false,
+    'simCardModul': false,
+    'bluetoothd': 5.43,
+    'gpsOnModul':false
+}
+
 module.exports = config

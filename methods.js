@@ -203,9 +203,17 @@ function reconnect() {
 function onMonitor(request, response) {
     si.getDynamicData()
     .then((data) => {
-        let message = data
+        // exclude some parameters from the dynamic metadata
+        ['time', 'battery', 'services', 'users', 'inetLatency', 'temp'].forEach(e => delete data[e])
+        // find the device client app within the all processes
+        for (let i = 0; i < data.processes.list.length; i++){
+            if (data.processes.list[i].name == "node"){
+                data.DeviceClientApp = data.processes.list[i]
+            }
+        }
+        delete data.processes.list
         let ApiResponse = 200
-        GenericResponse(request, response, message, ApiResponse)
+        GenericResponse(request, response, data, ApiResponse)
     })
     .catch((error) => {
         let ApiResponse = 400
@@ -217,9 +225,13 @@ function onMonitor(request, response) {
 function onGetMetadata(request, response) {
     si.getStaticData()
     .then((data) => {
-        let message = data
+        // add additional metadata to the object through the info from systeminformation modul
+        config.MetaData.os = data.os
+        config.MetaData.versions = data.versions
+        config.MetaData.cpu = data.cpu
+        config.MetaData.net = data.net
         let ApiResponse = 200
-        GenericResponse(request, response, message, ApiResponse)
+        GenericResponse(request, response, config.MetaData, ApiResponse)
     })
     .catch((error) => {
         let ApiResponse = 400
@@ -291,7 +303,7 @@ function onStartTelemetry(request, response) {
         .then((result) => {
             reportThroughTwin('lastExecuted', 'telemetry started', 'starttelemetry')
         })
-        let message = 'telemtry was sterted successfully'
+        let message = 'telemtry was started successfully'
         let ApiResponse = 200
         GenericResponse(request, response, message, ApiResponse) 
     }
