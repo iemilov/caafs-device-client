@@ -48,6 +48,14 @@ let patch = {
     }
 }
 
+function isEmpty(obj) {
+    for(var key in obj) {
+        if(obj.hasOwnProperty(key))
+            return false;
+    }
+    return true;
+}
+
 // check and execute waiting command after update or offline modues
 function GetAndExecuteWaitingCommands(twin) {
     if (twin.properties.desired.hasOwnProperty("WaitingCommand")) {
@@ -56,7 +64,7 @@ function GetAndExecuteWaitingCommands(twin) {
         let requestedTime = twin.properties.desired.WaitingCommand.CommandRequestTime
         let lastReportedTime = reportedMethod.lastExecuted
 
-        if (helper.CheckCommand(method) && requestedTime > lastReportedTime) {
+        if (helper.CheckCommand(method) && requestedTime > lastReportedTime || isEmpty(reportedMethod)) {
             if (method == 'startTelemetry') {
                 settings.startTelemetry()
                     .then((result) => {
@@ -170,34 +178,22 @@ function onConnect(err) {
 
         GetTwin()
         .then((twin) => {
-            // repoprt last reboot
-            reportThroughTwin('LastRebootTime', 'reboot completed', 'reboot')
-            .then(() => {
-                //check and execute the last waiting command
-                GetAndExecuteWaitingCommands(twin)
-            })
+            //check and execute the last waiting command
+            GetAndExecuteWaitingCommands(twin)
         })
 
         client.on('disconnect',  () => {
 	    isconnected = false
             logobject.logger.info('Device disconnetcted from the iot hub ' + new Date().toISOString())
-            client.removeAllListeners()
-            reconnect()
+            //client.removeAllListeners()
+            logobject.logger.info('Client is closed')
+            client.close()
+            main()
+            const settings = require("./send")
         })
     }
 }
 
-function reconnect() {
-    let timeout = setInterval(() => {
-	logobject.logger.info('RECONNECT is executed at ' + new Date().toISOString())
-        main()
-        if (isconnected) {
-          clearInterval(timeout)
-        }
-    }, 10000)
-}
-
-//reconnect ()
 
 // get dynamic data from device cpu load, processes and etc.
 function onMonitor(request, response) {
@@ -229,6 +225,7 @@ function onGetMetadata(request, response) {
         config.MetaData.os = data.os
         config.MetaData.versions = data.versions
         config.MetaData.cpu = data.cpu
+
         let ApiResponse = 200
         GenericResponse(request, response, config.MetaData, ApiResponse)
     })
@@ -333,7 +330,7 @@ function onReboot(request, response, err) {
 
 // helper function to execute the device rebooting
 function RebootDevice(){
-    reportThroughTwin('lastExecuted', 'rebooting', 'reboot')
+    reportThroughTwin('lastExecuted', 'rebooting physical device executed', 'reboot')
     .then(() => { 
         logobject.logger.info('rebooting physical device') 
         helper.Reboot()

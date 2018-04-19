@@ -29,6 +29,8 @@ config.reboot = 'sudo reboot'
 config.update = 'sudo apt-get update'
 config.upgrade = 'sudo apt-get -y dist-upgrade'
 
+
+// add the device metadata that you already now about your device
 config.MetaData = {
     'IsSimulatedDevice': 0,  // set it to 1 if the device is simulated
     'Manufacturer': 'Raspberry',
